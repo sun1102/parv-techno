@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/parv-techno/static/css/main.d340eb72.css",
-    "main.js": "/parv-techno/static/js/main.fc19945e.js",
+    "main.js": "/parv-techno/static/js/main.868b2e53.js",
     "static/js/453.ed3810f9.chunk.js": "/parv-techno/static/js/453.ed3810f9.chunk.js",
     "index.html": "/parv-techno/index.html",
     "main.d340eb72.css.map": "/parv-techno/static/css/main.d340eb72.css.map",
-    "main.fc19945e.js.map": "/parv-techno/static/js/main.fc19945e.js.map",
+    "main.868b2e53.js.map": "/parv-techno/static/js/main.868b2e53.js.map",
     "453.ed3810f9.chunk.js.map": "/parv-techno/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d340eb72.css",
-    "static/js/main.fc19945e.js"
+    "static/js/main.868b2e53.js"
   ]
 }
