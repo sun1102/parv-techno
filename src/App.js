@@ -25,6 +25,7 @@ function App() {
       <main className="min-h-screen pt-16"> {/* Adjust padding to avoid navbar overlap */}
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/parv-techno" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/index" element={<Home />} />
           <Route path="/about" element={<About />} />
