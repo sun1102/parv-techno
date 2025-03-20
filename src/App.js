@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -22,12 +22,10 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <main className="min-h-screen pt-16"> {/* Adjust padding to avoid navbar overlap */}
+      <main className="min-h-screen pt-16">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/parv-techno" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/index" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
